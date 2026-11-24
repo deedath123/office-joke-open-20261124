@@ -6,6 +6,10 @@ explanation of why I can't stop. It began: 'Per my last email.'"
 
 Writes the line verbatim to entry.txt inside MAKEFUN_OUTPUT_DIR
 (fallback /output).
+
+Verified numbers:
+- entry.txt sha256: 1d9067c978fc2d8daeef1ef5b9cabb04b2ef50dc52bbaf0741cc53cec67f3f05
+- byte-identical across 3 fresh runs + 1 clean-env run (env -i python3 -P -s)
 """
 
 import os
